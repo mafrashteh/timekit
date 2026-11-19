@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="تعداد روزها و فاصله تقویمی بین دو تاریخ شمسی یا میلادی را محاسبه کنید.">
+  <meta property="og:title" content="محاسبه اختلاف دو تاریخ | تایم‌کیت">
+  <meta property="og:description" content="تعداد روزها و فاصله تقویمی بین دو تاریخ شمسی یا میلادی را محاسبه کنید.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mafrashteh.github.io/timekit/tools/date-difference.html">
+  <link rel="canonical" href="https://mafrashteh.github.io/timekit/tools/date-difference.html">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <title>محاسبه اختلاف دو تاریخ | تایم‌کیت</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "محاسبه اختلاف دو تاریخ | تایم‌کیت",
+    "url": "https://mafrashteh.github.io/timekit/tools/date-difference.html",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Any",
+    "inLanguage": "fa-IR",
+    "description": "تعداد روزها و فاصله تقویمی بین دو تاریخ شمسی یا میلادی را محاسبه کنید."
+  }
+  </script>
+</head>
+<body data-tool-page="date-difference">
+  <a class="skip-link" href="#main-content">رفتن به محتوای اصلی</a>
+  <header class="site-header"><div class="container navbar">
+    <a class="brand" href="../" aria-label="صفحه اصلی تایم‌کیت"><span class="brand-mark" aria-hidden="true">◷</span><span>تایم‌کیت<small>TIMEKIT</small></span></a>
+    <nav class="main-nav" aria-label="ناوبری اصلی"><a href="../#tools">ابزارها</a><a href="../#categories">دسته‌بندی‌ها</a><a href="../#about">درباره تایم‌کیت</a><a href="nowruz.html">شمارش معکوس نوروز</a></nav>
+    <div class="nav-actions"><button class="icon-button" type="button" data-theme-toggle aria-label="تغییر حالت نمایش">☼</button><button class="menu-button" type="button" data-menu-toggle aria-label="باز کردن منو" aria-expanded="false">☰</button></div>
+  </div></header>
+  <main id="main-content" class="tool-page"><div class="container">
+    <nav class="breadcrumbs" aria-label="مسیر صفحه"><a href="../">تایم‌کیت</a><span aria-hidden="true">/</span><a href="../#tools">ابزارها</a><span aria-hidden="true">/</span><span>محاسبه اختلاف دو تاریخ</span></nav>
+    <div class="page-heading"><span class="eyebrow">ابزار تایم‌کیت</span><h1>محاسبه اختلاف دو تاریخ</h1><p>تاریخ شروع و پایان را وارد کنید تا فاصله دقیق آن‌ها برحسب روز و به‌صورت سال، ماه و روز نمایش داده شود.</p></div>
+    <div class="tool-shell"><section id="tool-stage" class="card tool-main-card"><div class="tool-interface"><h2>فاصله بین دو تاریخ</h2><p>نوع تقویم ورودی را انتخاب کنید.</p><form data-difference-form><div class="control-row"><div class="control-group"><label for="difference-calendar">تقویم</label><select class="select" id="difference-calendar" name="difference-calendar"><option value="gregorian">میلادی</option><option value="jalali">شمسی</option></select></div></div><div data-calendar-fields="gregorian" class="control-row"><div class="control-group" style="flex:1"><label for="from-date">از تاریخ</label><input class="input" id="from-date" name="from-date" type="date"></div><div class="control-group" style="flex:1"><label for="to-date">تا تاریخ</label><input class="input" id="to-date" name="to-date" type="date"></div></div><div data-calendar-fields="jalali" class="control-row" hidden><div class="control-group"><label>سال شروع</label><input class="input" name="from-year" type="number" min="1" value="1405"></div><div class="control-group"><label>ماه شروع</label><input class="input" name="from-month" type="number" min="1" max="12" value="1"></div><div class="control-group"><label>روز شروع</label><input class="input" name="from-day" type="number" min="1" max="31" value="1"></div><div class="control-group"><label>سال پایان</label><input class="input" name="to-year" type="number" min="1" value="1405"></div><div class="control-group"><label>ماه پایان</label><input class="input" name="to-month" type="number" min="1" max="12" value="1"></div><div class="control-group"><label>روز پایان</label><input class="input" name="to-day" type="number" min="1" max="31" value="2"></div></div><div class="control-row"><button class="button button-primary" type="submit">محاسبه اختلاف</button></div></form><div class="result-box"><strong data-difference-result>—</strong><span data-difference-detail>—</span></div><p class="status" data-difference-status aria-live="polite"></p></div></section><aside class="tool-side"><section class="card side-card"><h2>ابزارهای مرتبط</h2><div class="related-grid"><a href="date-converter.html">تبدیل تاریخ</a><a href="date-add.html">تاریخ آینده و گذشته</a><a href="today.html">تاریخ امروز</a></div></section><section class="card side-card"><h2>استفاده سریع</h2><p>این ابزار در مرورگر شما اجرا می‌شود و برای استفاده معمول به ثبت‌نام یا ارسال اطلاعات شخصی نیاز ندارد.</p></section></aside></div>
+    <article class="tool-content"><h2>محاسبه روزهای تقویمی</h2><p>اختلاف روزها با تاریخ‌های UTC در ساعت صفر محاسبه می‌شود تا تغییر ساعت تابستانی منطقه‌ای روی تعداد روزها اثر نگذارد.</p><h2>فاصله سال، ماه و روز</h2><p>در کنار تعداد روزها، فاصله تقویمی مرحله‌به‌مرحله محاسبه می‌شود. اگر تاریخ پایان پیش از تاریخ شروع باشد، ابزار تاریخ‌ها را برای محاسبه جابه‌جا می‌کند.</p></article>
+  </div></main>
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="brand" href="../"><span class="brand-mark" aria-hidden="true">◷</span><span>تایم‌کیت<small>TIMEKIT</small></span></a><p>همه ابزارهای زمان، یک‌جا. ساخته‌شده برای لحظه‌هایی که ارزش دارند.</p></div><div class="footer-column"><h3>ابزارهای پرکاربرد</h3><a href="tehran-clock.html">ساعت تهران</a><a href="today.html">تاریخ امروز</a><a href="date-converter.html">تبدیل تاریخ</a></div><div class="footer-column"><h3>تایمر و شمارش</h3><a href="timer.html">تایمر آنلاین</a><a href="stopwatch.html">کرنومتر</a><a href="nowruz.html">شمارش معکوس نوروز</a></div><div class="footer-column"><h3>محاسبات</h3><a href="date-difference.html">اختلاف دو تاریخ</a><a href="date-add.html">تاریخ آینده و گذشته</a><a href="world-clock.html">ساعت جهانی</a></div></div><div class="footer-bottom"><span>تایم‌کیت · نسخه پایدار اولیه</span><span>اطلاعات زمانی روی دستگاه شما پردازش می‌شود.</span></div></div></footer>
+  <script src="../assets/js/core.js"></script><script src="../assets/js/tool-page.js"></script>
+</body></html>
